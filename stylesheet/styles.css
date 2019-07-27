@@ -1,3 +1,50 @@
-* {
-    background-color: wheat;
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+body {
+    background-color: white;
+}
+
+#profile {
+    position:fixed;
+    top: 40%;
+    left: 50%;
+    width:30em;
+    height:25em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+	background-color: white;
+	align-content: center;
+	margin-top: -9em; /*set to a negative number 1/2 of your height*/
+	margin-left: -15em; 
+	
+}
+
+#profilepic {
+	border-radius: 100%;
+	top: 10%;
+	left: 150%;
+	width: 150px;
+	background-color: white;
+}
+
+.navitem {
+	display: block;
+}     
+
+#profilename {
+	font-family: 'IBM Plex Serif', sans-serif;
+	align:center;
+	text-align: center;
+}
+
+.navitem ul li {
+	list-style:  none;
+	display: inline-block;
+}
+
+.navitem ul li img{
+	width: 60px;
 }
