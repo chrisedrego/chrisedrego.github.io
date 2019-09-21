@@ -9,7 +9,7 @@ body {
 
 #profile {
     position:fixed;
-    top: 40%;
+    top: 50%;
     left: 50%;
     width:30em;
     height:25em;
@@ -32,6 +32,7 @@ body {
 
 .navitem {
 	display: block;
+	width: 550px;
 }     
 
 #profilename {
